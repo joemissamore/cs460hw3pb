@@ -126,7 +126,7 @@
 
 
 (define (square_root n)
-    (round (square_root_helper n n 1 0.01))
+    (round (square_root_helper n n 1 0.000001))
 )
 
 ; helper function for square root
